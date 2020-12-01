@@ -8,6 +8,7 @@
 </p>
 
 <!--[![Hacktoberfest](https://badgen.net/badge/hacktoberfest/friendly/pink)](CONTRIBUTING.md)-->
+[![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=qsw-vivabahia_appwrite&metric=alert_status)](https://sonarcloud.io/dashboard?id=qsw-vivabahia_appwrite)
 [![Discord](https://img.shields.io/discord/564160730845151244?label=discord)](https://appwrite.io/discord)
 [![Docker Pulls](https://badgen.net/docker/pulls/appwrite/appwrite)](https://hub.docker.com/r/appwrite/appwrite)
 [![Travis CI](https://badgen.net/travis/appwrite/appwrite?label=build)](https://travis-ci.com/appwrite/appwrite)

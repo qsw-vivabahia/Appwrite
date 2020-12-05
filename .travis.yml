@@ -6,6 +6,10 @@ php:
 addons:
   hosts:
     - appwrite.test
+  sonarcloud:
+    organization: "qsw-vivabahia"
+    token:
+      secure: "opqTwsTMli3vQaRNytFGfi45o27I3QpSxjW3q7AMnzem8bkXdnkD+k+qoPvnSV8HeG/8wBD4buRRMaHzLkjqhpWudK8a/eAfLQ+FsbHmE+zRKf4XcbCQd49k6+yaMtjc+f04bGAXtQn/0oRk2sFaaBubItEFofyEa584dkq+ytksqABWzSykk6pdxRKAG+oO8FRktKyLUdwbrFyg9ZC1QqKDJd5Y+2mIRrb0SnAezQMpDQqZIAGp69hcqnBD/ELTItDA+2ZBI1ggKAjDQkfnhfjSNivZj27UCHvsjvfJJxFbpltQkHgSu9AtAQNeA7OGyvgmMhMNGS09j8DIFoUqrL0mH2zx0CfWSjWxPq3u02b4Qcq1eLMiy1u0tncdx8RCDV8XjIzSAhCeVlpO6cjYty9FjDv67l4x6uQ3/pcRFSEhPuFmNaxDUxblpFdvXZBauJit/e0jP+RIzbmXlVsEI7NwRB/gLo8UnQdf+FdWv5QCoTFsmx0jpV2If+xfWT7P9FwQNmk73kLLBENNmud+jbkVv4mxzts/Mwl2WE0pQQcBuhr8Tecu4tNjhQIngDvVNjzfwzxJTFSLKwwGOAV1w75AlbAVn3PM8higK6bCFRSCed/DZd0EmgGZdAQnLCL8iN/sZRknP8Ee0sHrHvDQcBvTC4/f0LevIQp/l3eMbIo="
 
 notifications:
   email:
@@ -31,3 +35,4 @@ install:
 script:
 - docker ps
 - docker exec appwrite test
+- sonar-scanner
